@@ -18,7 +18,7 @@ async function success(position) {
 }
 
 async function fetch_data(lat, lon){
-    const API_KEY = "e9122b7eef3302ec748e351893dc8064";
+    const API_KEY = "API_Key";
 
     // Fetch weather using current location
     const res = await fetch(
